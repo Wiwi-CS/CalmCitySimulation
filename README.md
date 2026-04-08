@@ -1,6 +1,8 @@
 # Calm City Simulation
 
-A performance mod for Cities: Skylines that reduces how often citizens and tourists make decisions.
+A performance-focused simulation mod for Cities: Skylines that reduces how often citizens and tourists make decisions.
+
+Instead of constant updates, the mod introduces a cooldown-based system that keeps the simulation responsive while significantly lowering CPU load.
 
 ---
 
@@ -17,10 +19,14 @@ A performance mod for Cities: Skylines that reduces how often citizens and touri
 
 Instead of updating every frame, the mod skips simulation steps using a configurable system.
 
-This results in:
-- Fewer pathfinding calculations
-- Reduced AI updates
-- More stable performance
+- **Citizen Mode**  
+  Controls how often citizens update their simulation state.
+
+- **Tourist Mode**  
+  Adjusts update frequency for tourists.
+
+- Higher values = fewer updates = better performance
+- Lower values = more responsive simulation
 
 ---
 
