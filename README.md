@@ -3,7 +3,6 @@
 A performance-focused simulation mod for Cities: Skylines that reduces how often citizens and tourists make decisions.
 
 Instead of constant updates, the mod introduces a cooldown-based system that keeps the simulation responsive while significantly lowering CPU load.
-
 ---
 
 ## 🚀 Features
@@ -17,7 +16,10 @@ Instead of constant updates, the mod introduces a cooldown-based system that kee
 
 ## ⚙️ How it works
 
-Instead of updating every frame, the mod skips simulation steps using a configurable system.
+Instead of updating every frame, the mod introduces a cooldown system.
+Each citizen or tourist can only update after a certain time has passed.
+
+This reduces unnecessary simulation updates while keeping the city alive.
 
 - **Citizen Mode**  
   Controls how often citizens update their simulation state.
