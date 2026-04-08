@@ -35,7 +35,7 @@ This reduces unnecessary simulation updates while keeping the city alive.
 
 ## 📊 Performance
 
-In complex areas (e.g. large train stations or dense downtown areas), improvements of around **3–5 FPS** have been observed.
+In complex areas (e.g. large train stations or dense downtown areas), consistent improvements of around **3–5 FPS** have been observed.
 
 > ⚠️ Performance gains depend on hardware, camera angle, and city complexity.
 
@@ -77,11 +77,11 @@ The mod includes adjustable parameters such as:
 
 ## 🧠 Technical Details
 
-- Uses Harmony patches to modify simulation behavior
-- Targets:
-- `ResidentAI.UpdateLocation`
-- `TouristAI.UpdateLocation`
-- Reduces update frequency to lower CPU usage
+- Uses a cooldown-based system to limit update frequency
+- Significantly reduces pathfinding calls and AI workload
+- 
+Higher values = fewer updates → better performance  
+Lower values = more frequent updates → more responsive simulation
 
 ---
 
