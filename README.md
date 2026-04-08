@@ -76,12 +76,21 @@ The mod includes adjustable parameters such as:
 
 ---
 
-## 📌 Roadmap
+## 📌 Status
 
-Planned improvements:
-- Cooldown-based simulation system (instead of probability)
+Recently implemented:
+
+- Cooldown-based simulation system (replacing the previous probability approach)
+- Smoother divisor scaling for more natural behavior
+- Improved balance between performance and simulation realism
+
+---
+
+## 🚧 Future Plans
+
 - More granular control options
-- UI improvements
+- Optional UI for in-game configuration
+- Further performance optimizations
 
 ---
 
