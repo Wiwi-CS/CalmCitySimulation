@@ -28,8 +28,8 @@ This reduces unnecessary simulation updates while keeping the city alive.
 - **Tourist Mode**  
   Adjusts update frequency for tourists.
 
-- Higher values = fewer updates = better performance
-- Lower values = more responsive simulation
+  Higher values = fewer updates = better performance
+  Lower values = more responsive simulation
 
 ---
 
