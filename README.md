@@ -3,6 +3,7 @@
 A performance-focused simulation mod for Cities: Skylines that reduces how often citizens and tourists make decisions.
 
 Instead of constant updates, the mod introduces a cooldown-based system that keeps the simulation responsive while significantly lowering CPU load.
+
 ---
 
 ## 🚀 Features
